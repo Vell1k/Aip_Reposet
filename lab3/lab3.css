@@ -1,0 +1,642 @@
+/* ЗАДАНИЕ 51
+h1, h2, h3 {
+	text-align: center;
+}
+
+ЗАДАНИЕ 52
+h1, h2, h3 {
+	text-align: center;
+}
+h2 {
+	color: blue;
+}
+h3 {
+	font-size: 16px;
+	color: red;
+}
+
+
+h1, h2, h3 {
+	text-align: center;
+	color: red;
+}
+h3 {
+	font-size: 16px;
+}
+
+ЗАДАНИЕ 53
+
+ul i{
+    color: red;
+}
+
+p i{
+    color: green;
+}
+
+p b i{
+    color: red;
+}
+
+ЗАДАНИЕ 54
+ul li > b{
+    color: red;
+}
+ЗАДАНИЕ 55(1)
+.odd{
+	color: red;
+}
+.eve{
+	color: green;
+}	
+
+ЗАДАНИЕ 55(2)
+.eee{
+	color: red;
+}
+
+ЗАДАНИЕ 56
+
+.xxx {
+	font-size: 30px;
+}
+
+ЗАДАНИЕ 57(1)
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
+.blue {
+	color: blue;
+}
+
+ЗАДАНИЕ 57(2)
+
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
+
+ЗАДАНИЕ 58(1)
+.eee {
+	font-size: 20px;
+}
+.zzz {
+	font-size: 30px;
+}
+.zzz .eee {
+	line-height: 1.5;
+	font-family: Arial;	
+}
+
+ЗАДАНИЕ 58(2)
+.eee {
+	font-size: 20px;
+}
+.zzz {
+	font-size: 30px;
+}
+.ggg {
+	font-size: 35px;
+}
+.eee .zzz .ggg {
+	text-align: center;
+	font-family: Arial;
+}
+
+ЗАДАНИЕ 59
+h2.header {
+	color: red;
+	font-size: 40px;
+}
+h3.header {
+	color: red;
+	font-size: 30px;
+}
+
+ЗАДАНИЕ 60
+.eee i {
+	color: red;
+}
+
+ЗАДАНИЕ 61(1)
+Селектор выбирает все элементы класса bbb, которые находится внутри элемента класса eee
+.eee .bbb {
+	color: red;
+}
+	
+ЗАДАНИЕ 61(2)
+Селектор выбирает заголовки h2, которые находятся внутри любого элемента класса eee
+.eee h2 {
+	color: red;
+}
+	
+ЗАДАНИЕ 61(3)
+Селектор выбирает заголовки h2 с классом bbb и находятся внутри элемента с классом eee
+.eee h2.bbb {
+	color: red;
+}
+
+ЗАДАНИЕ 61(4)
+Селектор выбирает заголовки h3 с классом bbb и находятся внутри элемента с классом eee
+.eee h3.bbb {
+	color: red;
+}
+
+ЗАДАНИЕ 61(5)
+Селектор выбирает абзацы с классом bbb и находятся внутри элемента с классом eee
+.eee p.bbb {
+	color: red;
+}
+
+ЗАДАНИЕ 61(6)
+Селектор выбирает все элементы с классом kkk, которые находятся внутри элемента с классом bbb, находящемся внутри элемента с классом eee
+.eee .bbb .kkk {
+	color: red;
+}
+ЗАДАНИЕ 62(1)
+Селектор выбирает все абзацы с классом bbb.
+p.bbb {
+	color: red;
+}
+ЗАДАНИЕ 62(2)
+Селектор выбирает все элементы с классом bbb, внутри абзацев
+p .bbb {
+	color: red;
+}
+
+ЗАДАНИЕ 62(3)
+Селектор выбирает абзацы с классом bbb и находятся внутри элемента с классом eee
+.eee p.bbb {
+	color: red;
+}
+
+ЗАДАНИЕ 62(4)
+Селектор выбирает все элементы с классом bbb, которые находятся внутри абзацев, находящихся в элементе с классом eee
+.eee p .bbb {
+	color: red;
+}
+
+ЗАДАНИЕ 63(1)
+
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+ЗАДАНИЕ 63(2)
+.text {
+	font-family: Arial;
+} 
+.size {
+	font-size: 14px;
+}
+.spacing {
+	line-height: 29px;
+}
+
+ЗАДАНИЕ 64(1)
+#elem1 {
+	color: red;
+}
+
+#elem2 {
+	color: green;
+}
+
+#elem3 {
+	color: blue;
+}
+
+ЗАДАНИЕ 65(1)
+#block {
+	color: red;
+	font-family: Arial;
+}
+
+.text {
+	color: green;
+	font-size: 14px;
+}
+
+ЗАДАНИЕ 66(1)
+#elem h2 {
+    color: red; 
+}
+
+ЗАДАНИЕ 66 (2)
+#elem .text {
+    color: red; 
+}
+
+ЗАДАНИЕ 66(3)
+#elem p.text {
+	color: red;
+}
+
+ЗАДАНИЕ 66(4)
+#elem li.text {
+	color: red;
+}
+
+ЗАДАНИЕ 67(1)
+.eee.zzz.ccc {
+}
+
+ЗАДАНИЕ 68(1)
+Селектор выбирает элементы, которые одновременно имеют и класс bbb, и класс zzz
+.bbb.zzz {
+	color: red;
+}
+
+ЗАДАНИЕ 68(2)
+Селектор выбирает заголовки h2, которые одновременно имеют и класс bbb, и класс zzz
+h2.bbb.zzz {
+	color: red;
+}
+
+ЗАДАНИЕ 68(3)
+Селектор выбирает элементы, которые одновременно имеют id="elem" и класс bbb
+#elem.bbb {
+	color: red;
+}
+
+ЗАДАНИЕ 68(4)
+Селектор выбирает элементы, которые одновременно имеют id="elem", класс bbb и класс zzz
+#elem.bbb.zzz {
+	color: red;
+}
+
+ЗАДАНИЕ 68(5)
+Селектор выбирает заголовки h2, которые одновременно имеют id="elem" и класс bbb
+h2#elem.bbb {
+	color: red;
+}
+
+ЗАДАНИЕ 69(1)
+Селектор выбирает заголовки h2, которые одновременно имеют класс zzz
+h2.zzz {
+	color: red;
+}
+
+ЗАДАНИЕ 69(2)
+Селектор выбирает заголовки h2, которые одновременно имеют класс zzz
+h2 .zzz {
+	color: red;
+}
+ЗАДАНИЕ 69(3)
+Селектор выбирает элементы, которые одновременно имеют и класс bbb, и класс zzz
+.bbb.zzz {
+	color: red;
+}
+ЗАДАНИЕ 69(4)
+Селектор выбирает элементы с классом zzz, которые находятся внутри элементов с классом bbb
+.bbb .zzz {
+	color: red;
+}
+ЗАДАНИЕ 69(5)
+Селектор выбирает элементы, которые одновременно имеют класс bbb, класс zzz и класс xxx
+.bbb.zzz.xxx {
+	color: red;
+}
+ЗАДАНИЕ 69(6)
+Селектор выбирает элементы, которые одновременно имеют класс zzz и класс xxx, и при этом находятся внутри элементов с классом bbb
+.bbb .zzz.xxx {
+	color: red;
+}
+ЗАДАНИЕ 69(7)
+Селектор выбирает элементы, которые имеют класс xxx, и при этом находятся одновременно внутри элементов с классом bbb и zzz
+.bbb.zzz .xxx {
+	color: red;
+}
+ЗАДАНИЕ 69(8)
+Селектор выбирает элементы с классом xxx, которые находятся внутри элементов с классом zzz, находящиеся внутри элементов с классом bbb
+.bbb .zzz .xxx {
+	color: red;
+}
+ЗАДАНИЕ 69(9)
+Селектор выбирает элементы, которые одновременно имеют id="elem" и класс bbb
+#elem.bbb {
+	color: red;
+}
+ЗАДАНИЕ 69(10)
+Селектор выбирает элементы с классом bbb, которые находятся внутри элемента с id="elem"
+#elem .bbb {
+	color: red;
+}
+
+ЗАДАНИЕ 70(1)
+#block h1, #block h2 {
+	text-align: center;
+}
+
+ЗАДАНИЕ 70(2)
+#block h1, #block h2 {
+	text-align: center;
+}
+#block h1 {
+	font-size: 30px;
+}
+#block h2 {
+	font-size: 20px;
+}
+
+ЗАДАНИЕ 71(1)
+#block h1, #block h2, #block h3 {
+	text-align: center;
+}
+#block h2 {
+	color: blue;
+}
+#block h3 {
+	font-size: 16px;
+	color: red;
+}
+	
+ЗАДАНИЕ 71(2)
+#block h1.eee, #block h2.zzz {
+	text-align: center;
+}
+#block h1.eee {
+	font-size: 30px;
+}
+#block h2.zzz {
+	font-size: 20px;
+}
+ЗАДАНИЕ 71(3)
+.xxx .kkk, .eee h2.zzz, #eee h2 {
+	text-align: center;
+}
+ЗАДАНИЕ 71(4)
+.eee h2.zzz, .xxx {
+	text-align: center;
+}
+
+ЗАДАНИЕ 72(1)
+div p {
+}
+ЗАДАНИЕ 72(2)
+div h2 {
+}
+ЗАДАНИЕ 72(3)
+#block p {
+}
+ЗАДАНИЕ 72(4)
+#block h2 {
+}
+ЗАДАНИЕ 72(5)
+.bbb {
+}
+ЗАДАНИЕ 72(6)
+#block .bbb {
+}
+ЗАДАНИЕ 72(7)
+p.bbb {
+}
+ЗАДАНИЕ 72(8)
+h2.bbb {
+}
+ЗАДАНИЕ 72(9)
+#block p.bbb {
+}
+ЗАДАНИЕ 72(10)
+.bbb, .xxx {
+}
+ЗАДАНИЕ 72(11)
+p.bbb, h2.xxx {
+}
+ЗАДАНИЕ 72(12)
+#block p.bbb, #block p.xxx {
+}
+ЗАДАНИЕ 72(13)
+.fff {
+}
+ЗАДАНИЕ 72(14)
+.fff p {
+}
+ЗАДАНИЕ 72(15)
+p.fff {
+}
+ЗАДАНИЕ 72(16)
+.fff .bbb {
+}
+ЗАДАНИЕ 72(17)
+.fff h2.bbb {
+}
+
+ЗАДАНИЕ 73(1)
+Вторая запись переопределит первую и размер будет 30px
+h2 {
+	font-size: 20px;
+}
+h2 {
+	font-size: 30px;
+}
+
+ЗАДАНИЕ 74(1)
+Так как оба селектора h2 имеют одинаковый приоритет, применяются оба, но цвет совпадает, поэтому применится красный, так как он ниже
+h2 {
+	font-size: 20px;
+	color: blue;
+}
+h2 {
+	font-style: italic;
+	color: red;
+}
+
+ЗАДАНИЕ 77(1)
+#elem + li {
+}
+
+ЗАДАНЕИ 77(2)
+.elem + li {
+}
+ЗАДАНИЕ 78(1)
+#elem ~ li {
+}
+
+ЗАДАНИЕ 79(1)
+main * p {
+}
+
+ЗАДАНИЕ 80(1)
+[title] {
+}
+ЗАДАНИЕ 80(2)
+p[title] {
+}
+ЗАДАНИЕ 80(3)
+p[title="hello"] {
+}
+ЗАДАНИЕ 80(4)
+a[href^="http://"] {
+}
+ЗАДАНИЕ 80(5)
+a[href$=".html"] {
+}
+ЗАДАНИЕ 80(6)
+p[title*="hello"] {
+}
+ЗАДАНИЕ 80(7)
+p[class^="top-"] {
+}
+
+ЗАДАНИЕ 82(1)
+a:link {
+	color: blue;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+a:active {
+	color: black;
+}
+
+ЗАДАНИЕ 84(1)
+a {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+ЗАДАНИЕ 85(1)
+#test a выбирает все ссылки, находящиеся внутри элемента с id="test", и делает их красными
+#test a:hover выбирает те же ссылки, но только в момент наведения курсора мыши, и убирает у них подчеркивание
+
+#test a {
+	color: red;
+}
+#test a:hover {
+	text-decoration: none;
+}
+
+ЗАДАНИЕ 86(1)
+a.zzz выбирает все ссылки с классом zzz и делает их красными
+a.zzz:hover выбирает те же ссылки при наведении курсора и убирает подчеркивание
+
+a.zzz {
+	color: red;
+}
+a.zzz:hover {
+	text-decoration: none;
+}
+ЗАДАНИЕ 86(2)
+#block a.zzz выбирает ссылки с классом zzz, находящиеся внутри элемента с id="block", и делает их красными
+#block a.zzz:hover выбирает те же ссылки при наведении и убирает подчеркивание
+
+#block a.zzz {
+	color: red;
+}
+#block a.zzz:hover {
+	text-decoration: none;
+}
+ЗАДАНИЕ 86(3)
+.block a.zzz выбирает ссылки с классом zzz, находящиеся внутри элементов с классом block, и делает их красными
+.block a.zzz:hover выбирает те же ссылки при наведении и убирает подчеркивание
+
+.block a.zzz {
+	color: red;
+}
+.block a.zzz:hover {
+	text-decoration: none;
+}
+
+ЗАДАНИЕ 87(1)
+li:first-child {
+	color: red;
+}
+
+ЗАДАНИЕ 87(2)
+li:last-child {
+	color: green;
+}
+ЗАДАНИЕ 87(3)
+li:first-child {
+	color: red;
+}
+li:last-child {
+	color: green;
+}
+
+ЗАДАНИЕ 88(1)
+li:nth-child(3) {
+	color: red;
+}
+
+ЗАДАНИЕ 88(2)
+li:nth-child(even) {
+	color: red;
+}
+li:nth-child(odd) {
+	color: green;
+}
+ЗАДАНИЕ 88(3)
+li:nth-child(3n) {
+	color: red;
+}
+
+ЗАДАНИЕ 88(4)
+li:nth-last-child(2) {
+	color: red;
+}
+
+ЗАДАНИЕ 89(1)
+li:only-child {
+	color: red;
+}
+
+ЗАДАНИЕ 90(1)
+li:empty {
+	color: blue;
+	width: 100px
+}
+ЗАДАНИЕ 91
+p:first-of-type {
+    color: red;
+}
+
+p:last-of-type {
+    color: green;
+}
+
+p:nth-of-type(2) {
+    color: yellow;
+}
+
+p:nth-last-of-type(2) {
+    color: orange;
+}
+
+h2:only-of-type {
+    color: blue;
+}
+
+ЗАДАНИЕ 92(1)
+li:not(.elem) {
+}
+ЗАДАНИЕ 92(2)
+li:not(:first-child) {
+}
+ЗАДАНИЕ 92(3)
+li:not(:first-child):not(:last-child) {
+}
+*/
