@@ -1,0 +1,209 @@
+/*ЗАДАНИЕ 93(1)
+#elem {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(57, 118, 204);
+}
+
+ЗАДАНИЕ 93(2)
+#elem {
+    width: 200px;
+    height: 150px;
+    color:  white;
+    background-color: rgb(77, 220, 128);
+    text-align: center;
+}
+
+ЗАДАНИЕ 95(1)
+#elem {
+    width: 200px;
+    height: 150px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+}
+
+ЗАДАНИЕ 96(1)
+#elem {
+    border-width: 4px;
+    border-style: dotted;
+    border-color: red;
+    width: 250px;
+    height: 150px;
+}
+
+ЗАДАНИЕ 97(1)
+#elem {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: orange;
+    width: 250px;
+    height: 150px;
+}
+
+
+ЗАДАНИЕ 99(1)
+#elem {
+    border-width: 5px;
+    border-style: double;
+    border-color: blue;
+    width: 250px;
+    height: 150px;
+}
+
+ЗАДАНИЕ 100(1)
+#elem {
+    border: 2px solid red;
+    width: 250px;
+    height: 150px;
+}
+ЗАДАНИЕ 100(2)
+#elem {
+    border: 2px dotted blue;
+    width: 250px;
+    height: 150px;
+}
+ЗАДАНИЕ 100(3)
+#elem {
+    border: 2px dashed green;
+    width: 250px;
+    height: 150px;
+}
+ЗАДАНИЕ 100(4)
+#elem {
+    border: 3px double orange;
+    width: 250px;
+    height: 150px;
+}
+
+ЗАДАНИЕ 101(1)
+#elem {
+    width: 250px;
+    height: 150px;
+    border-top: 2px solid blue;
+    border-right: 2px solid green;
+    border-bottom: 2px solid red;
+    border-left: 2px solid orange;
+}
+ЗАДАНИЕ 101(2)
+#elem {
+    width: 250px;
+    height: 150px;
+    border-top: 2px solid blue;
+    border-right: 3px dotted green;
+    border-bottom: 2px solid blue;
+    border-left: 3px solid red;
+}
+
+ЗАДАНИЕ 102(1)
+#elem {
+    width: 150px;
+    height: 150px;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+
+ЗАДАНИЕ 103(1)
+#elem {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(74, 222, 128);
+    border-radius: 30px;
+}
+
+ЗАДАНИЕ 104(1)
+#elem {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 2px solid green;
+}
+
+ЗАДАНИЕ 106(1)
+#elem {
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    border-radius: 20px 40px 60px 80px;
+}
+
+ЗАДАНИЕ 107(1)
+#elem {
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    border-radius: 10px 40px;
+}
+
+ЗАДАНИЕ 108(1)
+#elem {
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    border-radius: 20px 50px 80px;
+}
+
+ЗАДАНИЕ 110(1)
+#elem {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+ЗАДАНИЕ 111(1)
+#elem {
+    background-image: url("bg.png");
+    background-repeat: repeat;
+}
+    
+ЗАДАНИЕ 112(1)
+#elem {
+	background-repeat: repeat-y;
+	background-image: url("bg.png");
+	width: 400px;
+	height: 300px;
+}
+ЗАДАНИЕ 112(2)
+#elem {
+	background-repeat: repeat-x;
+	background-image: url("bg.png");
+	width: 400px;
+	height: 300px;
+}
+
+ЗАДАНИЕ 115(1)
+ul {
+    list-style-type: square;
+}
+
+ЗАДАНИЕ 116(1)
+ul {
+	list-style-type: circle;
+}
+
+ЗАДАНИЕ 117(1)
+ul {
+	list-style-type: none;
+}
+
+ЗАДАНИЕ 122(1)
+ol {
+	list-style-type: lower-alpha;
+}
+
+ЗАДАНИЕ 123(1)
+ol {
+	list-style-type: upper-alpha;
+}
+
+ЗАДАНИЕ 124(1)
+ol {
+	list-style-type: lower-greek;
+}
+
+ЗАДАНИЕ 125(1)
+ol {
+	list-style-type: decimal-leading-zero;
+}
+*/
