@@ -1,0 +1,25 @@
+p {
+	color: orange;
+}
+h1 {
+    color: green;
+}
+h2 {
+    color: blue;
+}
+h3 {
+    color: red;
+}
+li {
+    color:rgb(96, 12, 172)
+}
+h4 {
+    color: #15e5d7;
+}
+p {
+	width: 300px;
+}
+td {
+	width: 400px;
+	height: 300px;
+}
